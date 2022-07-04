@@ -4,15 +4,8 @@ import "firebase/compat/auth";
 import "firebase/compat/firestore";
 import { getDatabase } from "firebase/database";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyA6ELJOpwZcSm8xRGsgsTzMbis3dTnCvLo",
-  authDomain: "slack-clone-acb2f.firebaseapp.com",
-  projectId: "slack-clone-acb2f",
-  storageBucket: "slack-clone-acb2f.appspot.com",
-  messagingSenderId: "317975863235",
-  appId: "1:317975863235:web:aa715ca3ff8c6047126776",
-  measurementId: "G-5QKX013343",
-};
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
