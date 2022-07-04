@@ -1,3 +1,5 @@
+# SlaCK-APP
+![Peek 2022-07-04 10-43](https://user-images.githubusercontent.com/94522266/177117809-bf9395f1-831f-4304-bfb4-4cbd7c35f79e.gif)
 # Getting Started with Create React App and Redux
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
