@@ -57,7 +57,21 @@ export default function Search() {
         {result.map((ele, index) => {
           return (
             // <Link to="/" key={index}>
-            <div style={{width: '100px', height: '50px', backgroundColor:'gray'}}>{ele}</div>
+            <div
+              style={{
+                // display: "flex",
+                // justifyContent: "center",
+                // alignItems: "center",
+                // width: "50%",
+                // height: "60vh",
+                // backgroundColor: "red",
+                // position: "absolute",
+                // bottom: "-500px",
+                backgroundColor:'red',
+              }}
+            >
+              {ele}
+            </div>
             // </Link>
           );
         })}

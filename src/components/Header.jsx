@@ -26,7 +26,7 @@ export default function Header() {
 
   useEffect(() => {
     if (searchState.length > 0) {
-      fetch("gs://test-f5a6d.appspot.com".json)
+      fetch("/new/1JulIwJhUuuAL8HD1fYD".json)
         .then((response) => response.json())
         .then((responseData) => {
           setResult([]);
